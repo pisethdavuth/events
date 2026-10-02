@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+#post-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    align-items: start;
+    margin-top: 12px;
+}
+.post{
+    background: #f9f9f9;
+    border: 1px solid;
+    padding: 16px;
+}
+.post-header{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.post-header h3{
+    margin: 0;
+}
+.empty{
+    grid-column: 1/-1;
+}
