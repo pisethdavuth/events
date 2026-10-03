@@ -17,13 +17,6 @@ window.onload = () => {
 
     let addBlogPostBtn = document.getElementById("add-post-btn")
     addBlogPostBtn.addEventListener("click", ()=>{addPost()})
-    // const postList = document.getElementById("post-card")
-    // const addBtn = document.getElementById("add-post")
-
-    // const inventBtn = (text) => {
-    //     const btn = document.createElement("button")
-    //     btn.textContent=text
-    // }
 }
 
 const createPost = (getPost, getContent) => {
