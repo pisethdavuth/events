@@ -1,7 +1,7 @@
 h1{
     text-align: center;
 }
-#post-list{
+#post-card{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
@@ -10,17 +10,6 @@ h1{
 }
 .post{
     background: #f9f9f9;
-    border: 1px solid;
+    border: 1px solid black;
     padding: 16px;
-}
-.post-header{
-    display: flex;
-    align-items: center;
-    gap: 10px
-}
-.post-header h3{
-    margin: 0;
-}
-.empty{
-    grid-column: 1/-1;
 }
