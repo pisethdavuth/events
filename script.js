@@ -64,17 +64,13 @@ const addPost = () => {
 }
 
 const editPostTitle = (target) => {
-    //target <div><h3 title><button editTitle><p content><button editContent><button delete></div>
     const postTitle = target.firstChild
-    // const editBlogTitleBtn = target.childNodes[1]
     const  newTitle = prompt("Edit your post title: ", postTitle.textContent)
     postTitle.textContent = newTitle
 }
 
 const editPostContent = (target) => {
-    //target <div><h3 title><button editTitle><p content><button editContent><button delete></div>
     const postContent = target.childNodes[2]
-    // const editBlogContentBtn = target.childNodes[3]
     const newContent = prompt("Edit your post content: ", postContent.textContent)
     postContent.textContent = newContent
 }
